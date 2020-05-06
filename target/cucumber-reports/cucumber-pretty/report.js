@@ -38,28 +38,28 @@ formatter.match({
   "location": "ExecutionStepDefinition.i_opened_the_ide()"
 });
 formatter.result({
-  "duration": 92160800,
+  "duration": 71665300,
   "status": "passed"
 });
 formatter.match({
   "location": "ExecutionStepDefinition.i_execute_project()"
 });
 formatter.result({
-  "duration": 34500,
+  "duration": 36700,
   "status": "passed"
 });
 formatter.match({
   "location": "ExecutionStepDefinition.i_should_see_logs_on_console()"
 });
 formatter.result({
-  "duration": 30400,
+  "duration": 37500,
   "status": "passed"
 });
 formatter.match({
   "location": "ExecutionStepDefinition.i_should_see_the_report_folder()"
 });
 formatter.result({
-  "duration": 36600,
+  "duration": 36000,
   "status": "passed"
 });
 formatter.uri("signIn.feature");
@@ -96,21 +96,21 @@ formatter.match({
   "location": "SignInStepDefinition.i_am_on_application_landing_page()"
 });
 formatter.result({
-  "duration": 7025895300,
+  "duration": 7091072500,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_click_on_Sign_in_link()"
 });
 formatter.result({
-  "duration": 2579371800,
+  "duration": 2783878000,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_am_navigated_to_Sign_in_page()"
 });
 formatter.result({
-  "duration": 79298800,
+  "duration": 120746500,
   "status": "passed"
 });
 formatter.scenario({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "SignInStepDefinition.i_fill_in_email_address_field(String)"
 });
 formatter.result({
-  "duration": 722788300,
+  "duration": 788845500,
   "status": "passed"
 });
 formatter.match({
@@ -179,42 +179,42 @@ formatter.match({
   "location": "SignInStepDefinition.i_fill_in_password_field(String)"
 });
 formatter.result({
-  "duration": 128843100,
+  "duration": 93044900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_unselect_checkbox()"
 });
 formatter.result({
-  "duration": 69541400,
+  "duration": 65901100,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_click_on_the_Sign_In_button()"
 });
 formatter.result({
-  "duration": 68153800,
+  "duration": 68170700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_am_on_the_Home_page()"
 });
 formatter.result({
-  "duration": 2113118500,
+  "duration": 1791008400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_should_see_user_icon()"
 });
 formatter.result({
-  "duration": 31686100,
+  "duration": 57481800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignInStepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 659584800,
+  "duration": 661629400,
   "status": "passed"
 });
 });

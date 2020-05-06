@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="13.617" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="13.644" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Sonali\EclipseOxygenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7609730674392579634.tmp"/>
+    <property name="classworlds.conf" value="D:\Sonali\EclipseOxygenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1083429209698735502.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\WINDOWS\System32\OpenSSH\;D:\Sonali\Testing\AUTOMATION\SELENIUM\chromedriver_win32_v81;D:\Sonali\Testing\AUTOMATION\SELENIUM\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Sonali\ProgramFilesForInstalledSoftwares\Git-GitHub\Git\cmd;D:\Sonali\Testing\AUTOMATION\SELENIUM\geckodriver-v0.24.0-win64;C:\Users\AnkSonali\AppData\Local\Microsoft\WindowsApps;D:\Sonali\ProgramFilesForInstalledSoftwares\Microsoft VS Code\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\Sonali\eclipse-jee-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,6 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="runner.TestRunner" time="0.119"/>
-  <testcase name="feature" classname="runner.TestRunner" time="13.498"/>
+  <testcase name="feature" classname="runner.TestRunner" time="0.103"/>
+  <testcase name="feature" classname="runner.TestRunner" time="13.541"/>
 </testsuite>
