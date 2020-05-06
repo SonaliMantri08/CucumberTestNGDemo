@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="13997" started-at="2020-05-06T09:06:59Z" finished-at="2020-05-06T09:07:13Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Execution Test" duration-ms="13997" started-at="2020-05-06T09:06:59Z" finished-at="2020-05-06T09:07:13Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="setUpClass" is-config="true" duration-ms="183" started-at="2020-05-06T19:06:59Z" finished-at="2020-05-06T19:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="99" started-at="2020-05-06T19:06:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project execution]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="13643" started-at="2020-05-06T19:06:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Application Sign In]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2020-05-06T19:07:13Z" finished-at="2020-05-06T19:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Execution Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

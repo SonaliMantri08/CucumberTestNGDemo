@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful project execution",
+        "description": "",
+        "id": "project-execution;successful-project-execution",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74060000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I opened the ide",
+            "match": {
+              "location": "ExecutionStepDefinition.i_opened_the_ide()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I execute project",
+            "match": {
+              "location": "ExecutionStepDefinition.i_execute_project()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see logs on console",
+            "match": {
+              "location": "ExecutionStepDefinition.i_should_see_logs_on_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the report folder",
+            "match": {
+              "location": "ExecutionStepDefinition.i_should_see_the_report_folder()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Project execution",
+    "description": "",
+    "id": "project-execution",
+    "keyword": "Feature",
+    "uri": "execution.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User navigates to the application landing page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7244531900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on application landing page",
+            "match": {
+              "location": "SignInStepDefinition.i_am_on_application_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2817883100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Sign in link",
+            "match": {
+              "location": "SignInStepDefinition.i_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 353693000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am navigated to Sign in page",
+            "match": {
+              "location": "SignInStepDefinition.i_am_navigated_to_Sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Successful sign in",
+        "description": "",
+        "id": "application-sign-in;successful-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 312336000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill \"john_doe1@mailinator.com\" in email address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john_doe1@mailinator.com",
+                  "offset": 8
+                }
+              ],
+              "location": "SignInStepDefinition.i_fill_in_email_address_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190822500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I fill \"john_doe\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john_doe",
+                  "offset": 8
+                }
+              ],
+              "location": "SignInStepDefinition.i_fill_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99794000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I unselect checkbox",
+            "match": {
+              "location": "SignInStepDefinition.i_unselect_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108564800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Sign In button",
+            "match": {
+              "location": "SignInStepDefinition.i_click_on_the_Sign_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1735096000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the Home page",
+            "match": {
+              "location": "SignInStepDefinition.i_am_on_the_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48766100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see user icon",
+            "match": {
+              "location": "SignInStepDefinition.i_should_see_user_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710830300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I close the browser",
+            "match": {
+              "location": "SignInStepDefinition.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application Sign In",
+    "description": "\r\nAs a web application user\r\nI want to sign in to the application using my credentials\r\nIn order to view applied jobs",
+    "id": "application-sign-in",
+    "keyword": "Feature",
+    "uri": "signIn.feature"
+  }
+]
