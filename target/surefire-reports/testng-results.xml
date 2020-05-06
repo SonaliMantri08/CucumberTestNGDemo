@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="16677" started-at="2020-05-06T09:39:17Z" finished-at="2020-05-06T09:39:34Z">
+  <suite name="Test Suite" duration-ms="16377" started-at="2020-05-06T09:43:46Z" finished-at="2020-05-06T09:44:02Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" class="runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Execution Test" duration-ms="16677" started-at="2020-05-06T09:39:17Z" finished-at="2020-05-06T09:39:34Z">
+    <test name="Execution Test" duration-ms="16377" started-at="2020-05-06T09:43:46Z" finished-at="2020-05-06T09:44:02Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="setUpClass" is-config="true" duration-ms="194" started-at="2020-05-06T19:39:17Z" finished-at="2020-05-06T19:39:17Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="setUpClass" is-config="true" duration-ms="227" started-at="2020-05-06T19:43:46Z" finished-at="2020-05-06T19:43:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="104" started-at="2020-05-06T19:39:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:39:18Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="125" started-at="2020-05-06T19:43:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:43:46Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="16233" started-at="2020-05-06T19:39:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:39:34Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@26ba2a48]" name="feature" duration-ms="15901" started-at="2020-05-06T19:43:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-06T19:44:02Z">
           <params>
             <param index="0">
               <value>
@@ -86,8 +86,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7965B6N', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AnkSonali\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 21b1950d187a8322369f8a48179a54bb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AnkSonali\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dd15086aeaa62164c389686cd085bd15
 *** Element info: {Using=css selector, value=div[aria-label='Toggle menu']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -163,7 +163,7 @@ Session ID: 21b1950d187a8322369f8a48179a54bb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2020-05-06T19:39:34Z" finished-at="2020-05-06T19:39:34Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@26ba2a48]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2020-05-06T19:44:02Z" finished-at="2020-05-06T19:44:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

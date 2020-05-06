@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.235 sec <<< FAILURE!
-feature(runner.TestRunner)  Time elapsed: 16.275 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.879 sec <<< FAILURE!
+feature(runner.TestRunner)  Time elapsed: 15.944 sec  <<< FAILURE!
 cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[aria-label='Toggle menu'] (tried for 5 second(s) with 500 milliseconds interval)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
