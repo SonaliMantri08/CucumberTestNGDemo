@@ -38,18 +38,19 @@ public class TestBase {
 
 	public static void initialization() {
 		String browserName = properties.getProperty("browser");
-		System.out.println(browserName);
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		if (browserName.equals("chrome")) {
-			//driver = new ChromeDriver();
+			// driver = new ChromeDriver();
 			ChromeOptions optns = new ChromeOptions();
 			optns.addArguments("disable-infobars");
 			driver = new ChromeDriver(optns);
-			System.out.println("Browser set to Chrome");
+			System.out.println("Browser is set to Chrome");
 		} else if (browserName.equals("firefox")) {
 			driver = new FirefoxDriver();
+			System.out.println("Browser is set to Firefox");
 		} else {
 			driver = new InternetExplorerDriver();
+			System.out.println("Browser is set to IE");
 		}
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		// driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
@@ -60,9 +61,9 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.get(properties.getProperty("url"));
 	}
-	
+
 	public static void closeBrowser() {
 		driver.quit();
 	}
-	
+
 }
