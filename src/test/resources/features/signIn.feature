@@ -10,7 +10,7 @@ Background: User navigates to the application landing page
 	Then I am navigated to Sign in page 
 	
 Scenario: Successful sign in 
-	When I fill "john_doe1@mailinator.com" in email address field 
+	When I fill "john_doe11@mailinator.com" in email address field 
 	And I fill "john_doe" in password field 
 	And I unselect checkbox 
 	And I click on the Sign In button 
