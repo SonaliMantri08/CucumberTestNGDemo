@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="17.174" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="15.367" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Sonali\EclipseOxygenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3206427638023573545.tmp"/>
+    <property name="classworlds.conf" value="D:\Sonali\EclipseOxygenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7821694888647173633.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_201\bin;C:\WINDOWS\System32\OpenSSH\;D:\Sonali\Testing\AUTOMATION\SELENIUM\chromedriver_win32_v81;D:\Sonali\Testing\AUTOMATION\SELENIUM\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Sonali\ProgramFilesForInstalledSoftwares\Git-GitHub\Git\cmd;D:\Sonali\Testing\AUTOMATION\SELENIUM\geckodriver-v0.24.0-win64;C:\Users\AnkSonali\AppData\Local\Microsoft\WindowsApps;D:\Sonali\ProgramFilesForInstalledSoftwares\Microsoft VS Code\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\Sonali\eclipse-jee-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,152 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="runner.TestRunner" time="0.105"/>
-  <testcase name="feature" classname="runner.TestRunner" time="17.069">
-    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[aria-label=&apos;Toggle menu&apos;] (tried for 5 second(s) with 500 milliseconds interval)" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[aria-label='Toggle menu'] (tried for 5 second(s) with 500 milliseconds interval)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at pages.HomePage.user_Is_On_Home_Page(HomePage.java:35)
-	at stepDefinitions.SignInStepDefinition.i_am_on_the_Home_page(SignInStepDefinition.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at runner.TestRunner.feature(TestRunner.java:34)
-</failure>
-    <system-out>Feature: Application Sign In
-  
-  As a web application user
-  I want to sign in to the application using my credentials
-  In order to view applied jobs
-Browser is set to Chrome
-
-  Background: User navigates to the application landing page # signIn.feature:7
-    Given I am on application landing page                   # SignInStepDefinition.i_am_on_application_landing_page()
-    When I click on Sign in link                             # SignInStepDefinition.i_click_on_Sign_in_link()
-    Then I am navigated to Sign in page                      # SignInStepDefinition.i_am_navigated_to_Sign_in_page()
-
-  Scenario: Successful sign in                                     # signIn.feature:12
-    When I fill "john_doe11@mailinator.com" in email address field # SignInStepDefinition.i_fill_in_email_address_field(String)
-    And I fill "john_doe" in password field                        # SignInStepDefinition.i_fill_in_password_field(String)
-    And I unselect checkbox                                        # SignInStepDefinition.i_unselect_checkbox()
-    And I click on the Sign In button                              # SignInStepDefinition.i_click_on_the_Sign_In_button()
-    Then I am on the Home page                                     # SignInStepDefinition.i_am_on_the_Home_page()
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[aria-label='Toggle menu'] (tried for 5 second(s) with 500 milliseconds interval)
-      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-      	at pages.HomePage.user_Is_On_Home_Page(HomePage.java:35)
-      	at stepDefinitions.SignInStepDefinition.i_am_on_the_Home_page(SignInStepDefinition.java:69)
-      	at ?.Then I am on the Home page(signIn.feature:17)
-      Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[aria-label='Toggle menu']"}
-        (Session info: chrome=81.0.4044.122)
-      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-      System info: host: 'DESKTOP-7965B6N', ip: '10.0.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-      Driver info: org.openqa.selenium.chrome.ChromeDriver
-      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\AnkSonali\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:61490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-      Session ID: ed925a7b64e061a11330a3ad09137b79
-      *** Element info: {Using=css selector, value=div[aria-label='Toggle menu']}
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-      	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-      	at pages.HomePage.user_Is_On_Home_Page(HomePage.java:35)
-      	at stepDefinitions.SignInStepDefinition.i_am_on_the_Home_page(SignInStepDefinition.java:69)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:498)
-      	at cucumber.runtime.Utils$1.call(Utils.java:40)
-      	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-      	at cucumber.runtime.Utils.invoke(Utils.java:34)
-      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-      	at runner.TestRunner.feature(TestRunner.java:34)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:498)
-      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-      	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-      	at org.testng.TestRunner.run(TestRunner.java:624)
-      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-      	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-      	at org.testng.TestNG.run(TestNG.java:1024)
-      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:498)
-      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-
-    And I should see user icon                                     # SignInStepDefinition.i_should_see_user_icon()
-    Then I close the browser                                       # SignInStepDefinition.i_close_the_browser()
-</system-out>
-    <system-err>May 07, 2020 10:19:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
+  <testcase name="feature" classname="runner.TestRunner" time="0.111"/>
+  <testcase name="feature" classname="runner.TestRunner" time="15.256"/>
 </testsuite>
